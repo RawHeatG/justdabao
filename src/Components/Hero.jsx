@@ -18,10 +18,7 @@ export const Hero = () => {
           Rescue them before they are discarded. And did we mention...get up to
           70% OFF.
         </h3>
-        <button
-          style={{ background: "#007749" }}
-          className="text-white w-max py-2 px-4 transform hover:scale-125 transition-all duration-500 ease-in-out rounded-full"
-        >
+        <button className="text-white w-max py-2 px-4 bg-dark-green transform hover:scale-125 transition-all duration-500 ease-in-out rounded-full">
           Order Now
         </button>
       </div>

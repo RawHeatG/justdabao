@@ -57,6 +57,12 @@ export const HowTo = () => {
           </p>
         </div>
       </div>
+      <div>
+        {" "}
+        <h2 className="font-bold text-3xl pb-12 text-center">
+          Save these Shiok Bags Now!
+        </h2>
+      </div>
     </div>
   );
 };

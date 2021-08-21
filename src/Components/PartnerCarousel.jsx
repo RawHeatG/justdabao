@@ -98,7 +98,7 @@ export const PartnerCarousel = () => {
   return (
     <div className="flex flex-col items-center pt-8 bg-gray-100">
       <h2 className="text-3xl font-bold pb-8">
-        Our <span style={{ color: "#007749" }}>300+ Green</span> Partners
+        Our <span className="text-dark-green">300+ Green</span> Partners
       </h2>
       <div className="w-full px-6 md:px-20 relative ">
         <AliceCarousel

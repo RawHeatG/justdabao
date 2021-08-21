@@ -12,6 +12,9 @@ module.exports = {
       height: {
         "screen-3/4": "65vh",
       },
+      colors: {
+        "dark-green": "#007749",
+      },
     },
   },
   variants: {

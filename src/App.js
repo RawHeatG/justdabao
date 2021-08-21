@@ -1,4 +1,4 @@
-import { Navbar, Hero, PartnerCarousel, HowTo } from "./Components";
+import { Navbar, Hero, PartnerCarousel, HowTo, Cart } from "./Components";
 
 function App() {
   return (
@@ -7,6 +7,7 @@ function App() {
       <Hero />
       <PartnerCarousel />
       <HowTo />
+      <Cart />
     </div>
   );
 }

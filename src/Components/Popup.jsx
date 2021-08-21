@@ -27,7 +27,7 @@ export const Popup = () => {
       {cartItems.length > 0 ? (
         <div className="flex flex-col justify-evenly space-y-2">
           {cartItems.map((item) => (
-            <div className="flex justify-evenly">
+            <div key={item.id} className="flex justify-evenly">
               <img
                 className="h-20"
                 src={`/assets/CartItems/${item.image_primary}`}

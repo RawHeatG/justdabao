@@ -4,9 +4,21 @@ import "react-alice-carousel/lib/alice-carousel.css";
 
 export const MainCarousel = () => {
   const items = [
-    <img className="mx-auto" src="/assets/MainCarousel/img1.jpeg" alt="img1" />,
-    <img className="mx-auto" src="/assets/MainCarousel/img2.jpeg" alt="img2" />,
-    <img className="mx-auto" src="/assets/MainCarousel/img3.jpeg" alt="img3" />,
+    <img
+      className="mx-auto max-h-500"
+      src="/assets/MainCarousel/img1.jpeg"
+      alt="img1"
+    />,
+    <img
+      className="mx-auto max-h-500"
+      src="/assets/MainCarousel/img2.jpeg"
+      alt="img2"
+    />,
+    <img
+      className="mx-auto max-h-500"
+      src="/assets/MainCarousel/img3.jpeg"
+      alt="img3"
+    />,
   ];
   const [activeIndex, setActiveIndex] = useState(0);
 
@@ -24,7 +36,6 @@ export const MainCarousel = () => {
 
   return [
     <AliceCarousel
-      //   paddingLeft={100}
       autoPlay
       infinite
       animationDuration={500}

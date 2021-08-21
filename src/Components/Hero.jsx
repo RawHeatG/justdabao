@@ -7,7 +7,7 @@ export const Hero = () => {
         <MainCarousel />
       </div>
       <div className="w-full sm:w-1/2 flex flex-col justify-center space-y-8 h-full items-center text-center md:text-left md:items-start">
-        <h2 className="text-4xl font-bold">
+        <h2 className="text-4xl font-extrabold">
           Rescue delicious food and protect your planet
         </h2>
         <h3 className="text-xl">

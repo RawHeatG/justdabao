@@ -9,6 +9,9 @@ module.exports = {
       fontFamily: {
         sans: ["Raleway", ...defaultTheme.fontFamily.sans],
       },
+      height: {
+        "screen-3/4": "70vh",
+      },
     },
   },
   variants: {

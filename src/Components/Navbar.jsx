@@ -1,8 +1,8 @@
 export const Navbar = () => {
   return (
-    <div className="flex justify-between items-center py-12 px-6 sm:px-12 shadow-md max-h-28 w-full">
+    <div className="flex justify-between space-x-2 items-center py-12 px-4 sm:px-12 shadow-md max-h-20 w-full">
       <div>
-        <img className="" src="/assets/logo.png" alt="logo" />
+        <img className="h-16 w-auto" src="/assets/logo.png" alt="logo" />
       </div>
       <div className="hidden md:flex md:flex-wrap space-x-6 text-xl text-gray-700">
         <h2 className="cursor-pointer hover:underline">Order</h2>
@@ -12,9 +12,9 @@ export const Navbar = () => {
         <h2 className="cursor-pointer hover:underline">Blog</h2>
         <h2 className="cursor-pointer hover:underline">Our Story</h2>
       </div>
-      <div className="flex space-x-6 text-gray-700">
+      <div className="flex space-x-2 sm:space-x-6 text-gray-700">
         <svg
-          className="w-8 h-8 cursor-pointer"
+          className="w-8 h-8 cursor-pointer hover:text-gray-500"
           fill="none"
           stroke="currentColor"
           viewBox="0 0 24 24"
@@ -28,7 +28,7 @@ export const Navbar = () => {
           />
         </svg>
         <svg
-          className="w-8 h-8 cursor-pointer"
+          className="w-8 h-8 cursor-pointer hover:text-gray-500"
           fill="none"
           stroke="currentColor"
           viewBox="0 0 24 24"
@@ -42,7 +42,7 @@ export const Navbar = () => {
           />
         </svg>
         <svg
-          className="w-8 h-8 cursor-pointer"
+          className="w-8 h-8 cursor-pointer hover:text-gray-500"
           fill="none"
           stroke="currentColor"
           viewBox="0 0 24 24"

@@ -96,7 +96,7 @@ export const PartnerCarousel = () => {
   const syncActiveIndex = ({ item }) => setActiveIndex(item);
 
   return (
-    <div className="flex flex-col items-center pt-8 bg-gray-100">
+    <div className="flex flex-col items-center pt-8 bg-gray-100 z-10">
       <h2 className="text-3xl font-bold pb-8">
         Our <span className="text-dark-green">300+ Green</span> Partners
       </h2>

@@ -2,7 +2,7 @@ export const HowTo = () => {
   return (
     <div className="w-full px-4 md:w-3/5 flex flex-col space-y-12 justify-center items-center mx-auto pt-8">
       <div className="w-full  border-b-2 border-black font-bold text-3xl text-center">
-        <h2 clas>It's simple to begin</h2>
+        <h2>It's simple to begin</h2>
       </div>
       <div className="flex flex-wrap md:flex-nowrap justify-center items-center md:space-x-8">
         <div className="flex flex-col justify-center items-center text-center">

@@ -1,11 +1,11 @@
-import { Navbar, Hero, SecondaryCarousel } from "./Components";
+import { Navbar, Hero, PartnerCarousel } from "./Components";
 
 function App() {
   return (
     <div className="App">
       <Navbar />
       <Hero />
-      <SecondaryCarousel />
+      <PartnerCarousel />
     </div>
   );
 }

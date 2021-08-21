@@ -4,9 +4,9 @@ import "react-alice-carousel/lib/alice-carousel.css";
 
 export const MainCarousel = () => {
   const items = [
-    <img src="/assets/MainCarousel/img1.jpeg" alt="img1" />,
-    <img src="/assets/MainCarousel/img2.jpeg" alt="img2" />,
-    <img src="/assets/MainCarousel/img3.jpeg" alt="img3" />,
+    <img className="mx-auto" src="/assets/MainCarousel/img1.jpeg" alt="img1" />,
+    <img className="mx-auto" src="/assets/MainCarousel/img2.jpeg" alt="img2" />,
+    <img className="mx-auto" src="/assets/MainCarousel/img3.jpeg" alt="img3" />,
   ];
   const [activeIndex, setActiveIndex] = useState(0);
 
@@ -38,7 +38,7 @@ export const MainCarousel = () => {
     />,
     <div className="b-refs-buttons text-gray-500">
       <button
-        className="absolute top-1-2 left-0 hover:bg-gray-200 p-2 rounded-full"
+        className="absolute top-1/2 left-0 hover:bg-gray-200 p-2 rounded-full"
         onClick={slidePrev}
       >
         <svg
@@ -55,7 +55,7 @@ export const MainCarousel = () => {
         </svg>
       </button>
       <button
-        className="absolute top-1-2 right-0 md:right-10 hover:bg-gray-200 p-2 rounded-full"
+        className="absolute top-1/2 right-0 md:right-10 hover:bg-gray-200 p-2 rounded-full"
         onClick={slideNext}
       >
         <svg

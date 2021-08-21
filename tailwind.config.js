@@ -10,7 +10,7 @@ module.exports = {
         sans: ["Raleway", ...defaultTheme.fontFamily.sans],
       },
       height: {
-        "screen-3/4": "70vh",
+        "screen-3/4": "65vh",
       },
     },
   },

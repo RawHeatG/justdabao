@@ -4,7 +4,7 @@ export const Navbar = () => {
       <div>
         <img className="h-16 w-auto" src="/assets/logo.png" alt="logo" />
       </div>
-      <div className="hidden md:flex md:flex-wrap space-x-6 text-xl text-gray-700">
+      <div className="hidden md:flex md:flex-wrap space-x-6 text-gray-700">
         <h2 className="cursor-pointer hover:underline">Order</h2>
         <h2 className="cursor-pointer hover:underline">Support a Cause</h2>
         <h2 className="cursor-pointer hover:underline">Partner With Us</h2>

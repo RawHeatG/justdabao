@@ -1,0 +1,33 @@
+    [
+        {
+            "id": 1,
+            "name": "Japanese (Punggol - 5 min🚶🏻‍♂️from Oasis LRT)",
+            "price" : 8.50,
+            "discounted_price" : 5.50,
+            "image_primary": "asset 1_1.jpeg",
+            "image_secondary": "asset 1_2.jpeg"
+        },
+        {
+            "id": 2,
+            "name": "Japanese (Geylang - 15 min 🚶 from Eunos MRT)",
+            "price" : 13.00,
+            "discounted_price" : 8.10,
+            "image_primary": "asset 2_1.jpeg",
+            "image_secondary": "asset 2_2.jpeg"
+        },
+        {
+            "id": 3,
+            "name": "Chinese (Kallang - 3 min🚶🏻‍♂️ from Bendemeer MRT)",
+            "price" : 12.40,
+            "discounted_price" : 9.90,
+            "image_primary": "asset 3_1.jpeg",
+            "image_secondary": "asset 3_2.jpeg"
+        },
+        {
+            "id": 4,
+            "name": "Gift Card for Daughters of Tomorrow",
+            "price" : 10.00,
+            "image_primary": "asset 4_1.png",
+            "image_secondary": "asset 4_1.png"
+        }
+    ]
